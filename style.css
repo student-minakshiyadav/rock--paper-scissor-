@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: rgb(22,22,123);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+
+}
+.images{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+img{
+   width: 200px;
+   height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.counting{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.counting p{
+    font-weight: 900;
+    font-size: 30px;
+}
+.count-box{
+    
+    text-align: center;
+}
+.count-box p:first-child{
+    font-size: 40px;
+}
+.result-div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.result-div h1{
+    background-color: rgb(22,22,123);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
